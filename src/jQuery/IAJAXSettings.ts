@@ -28,7 +28,6 @@ module jQuery {
 		isLocal?: boolean;
 		jsonp?: string;
 		jsonpCallback?: any;
-		method?: string;
 		mimeType?: string;
 		password?: string;
 		processData?: boolean;
@@ -37,6 +36,7 @@ module jQuery {
 		success?: IXHRDoneFunction;
 		timeout?: number;
 		traditional?: boolean;
+		type?: string;
 		url?: string;
 		username?: string;
 		xhr?: IAJAXSettingsXHRFunction;
